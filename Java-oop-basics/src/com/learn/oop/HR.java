@@ -2,11 +2,12 @@ package com.learn.oop;
 
 public class HR extends Employe{
 	Integer Bonus = 40000;
-	Integer Total = Bonus + Basesalery;
+	//Integer Total = Bonus + Basesalery;
 	
 	public static void main(String[] args) {
 		HR sai=new HR();
-		System.out.println("Sai total Salery is"+ sai.Total);
+		//System.out.println("Sai total Salery is"+ sai.Total);
+		sai.Totalsalery(sai.Basesalery, sai.Bonus);
 	}
 
 }
